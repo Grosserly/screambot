@@ -28,6 +28,10 @@ if (config.DISABLE_LOGS) {
 	require("console-stamp")(console)
 }
 
+if (config.AUTO_RESTART) {
+	require("auto-restart")
+}
+
 const log = {
 	  say:    message => console.log(`${locationString(message)} Sent the message, "${message.content}".`)
 	, scream: message => console.log(`${locationString(message)} Sent a ${message.content.length}-character long scream.`)
