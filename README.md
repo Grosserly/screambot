@@ -33,7 +33,7 @@ Screambot is not (as) finished (as I'd like him to be), but he _does_ work. I am
 | `RANDOM_REPLY_CHANCE` | Percent chance that Screambot will scream in response to a regular message | `0.5` |
 | `EMBED_COLORS` | A JSON-encoded dictionary of colors for `normal` and `error`. | `{ "normal": "#A755B5", "error": "#FF3636" }` | `{ "normal": "#A755B5", "error": "#FF3636" }` |
 | `RATE_LIMIT_MS` | Timeout between scream requests. | `2000` |
-| `AUTO_RESTART` | A flag to kill Screambot every midnight (UTC). | `true/false/1/0` |
+| `AUTO_RESTART` | A flag to kill Screambot every day at 12:00 AM UTC. (Linux only) | `true/false/1/0` |
 
 ## TODO
 - Scream in VC: https://github.com/discordjs/discord.js/blob/master/docs/topics/voice.md
